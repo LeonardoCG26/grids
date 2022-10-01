@@ -1,0 +1,58 @@
+/* formatear el html */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* div{
+    width: 50%;
+    height: 33.33333333333333%;
+    position: absolute;
+} */
+.purple{
+    background-color: purple;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+
+}
+.orange{
+    background-color: chocolate;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    
+}
+.cuadrado{
+    background-color: brown;
+    width: 15%;
+    height: 30%;
+    left: 42%;
+    right: 58%;
+    z-index: 1;
+    top: 33.33333333333333%;
+    position: absolute;
+    
+}
+.titulo{
+    /* background-color: red; */
+    left: 20px;
+    position: absolute;
+    color: black;
+}
+.subtitulo{
+    /* background-color: darkblue; */
+    right: 20px;
+    bottom: 0%;
+    position: absolute;
+    color: black;
+    text-size-adjust: ;
+}

@@ -1,0 +1,43 @@
+/* formatear el html */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+div{
+    width: 50%;
+    height: 33.33333333333333%;
+    position: absolute;
+}
+.uno{
+    background-color: chocolate;
+    top: 0px;
+}
+.dos{
+    background-color: yellow;
+    right: 0px;
+}
+.tres{
+    background-color: darkmagenta;
+    bottom: 0px;
+}
+.cuatro{
+    background-color: red;
+    right: 0px;
+    bottom: 0px;
+}
+.cinco{
+    background-color: darkblue;
+    bottom: 33.33333333333333%;
+}
+.seis{
+    background-color: aqua;
+    right: 0px;
+    bottom: 33.33333333333333%;
+}
